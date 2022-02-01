@@ -1,0 +1,52 @@
+.heads{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(221 32 131);
+}
+.card-body{
+    padding: 0 !important;
+}
+.prod-img{
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    min-width: 230px;
+    min-height: 230px ;
+    border-radius: 30px;
+    margin: 10px;
+}
+.card-design{
+    background-color: hsl(317deg 57% 89%);
+    box-shadow: 14px -1px 42px -5px rgb(0 0 0 / 28%);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.card-design:hover{
+    transform: scale(1.05, 1.05);
+    transition-duration : 0.3s ; 
+    transition-timing-function : ease-out; 
+}
+input{
+    /* width: 50% !important; */
+    background: transparent;
+    border: none !important;
+    border-bottom: 1px solid #979393 !important;
+    border-radius: 0 !important;
+    /* outline: none; */
+}
+::placeholder{
+     color : hsl(329deg 73% 51%);
+}
+label {
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+button{
+    display: flex;
+}
+.btn-color{
+    background-color: hsl(329deg 73% 51%);
+}
